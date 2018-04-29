@@ -16,5 +16,3 @@ internal-libraries:
   a:
     source-dirs: src-a
 
-  b:
-    source-dirs: src-b

@@ -2,7 +2,7 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 4dff437dca30309ab2bbd4665ef8e581ee190f02b1ac544516eb6d1653e34156
+-- hash: 123aeeeec4b1002e9adccd8db0613bbcf735f868bc59ce54c4b3b20560c74c89
 
 name:           stack-internal-lib-bug
 version:        0.1.0.0
@@ -27,22 +27,11 @@ library
 
 library a
   exposed-modules:
-      A.Module
-  other-modules:
-      Paths_stack_internal_lib_bug
-  hs-source-dirs:
-      src-a
-  build-depends:
-      base
-  default-language: Haskell2010
-
-library b
-  exposed-modules:
       B
   other-modules:
       Paths_stack_internal_lib_bug
   hs-source-dirs:
-      src-b
+      src-a
   build-depends:
       base
   default-language: Haskell2010
